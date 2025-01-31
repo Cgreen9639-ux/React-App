@@ -31,3 +31,61 @@
   padding: 10px;
   text-align: center;
 }
+
+.App-title {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.App-product-item {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  text-align: left;
+}
+
+.App-product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App-product-item h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.App-product-item p {
+  margin: 5px 0;
+}
+
+.App-product-item .price {
+  font-weight: bold;
+  color: #333;
+}
+
+.App-product-item button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.App-product-item button:hover {
+  background-color: #21a1f1;
+}

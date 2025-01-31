@@ -7,6 +7,7 @@ function Page2() {
       <h2>About Neuro Styles</h2>
       <p>This is the second page of our application.</p>
       <p>Here you can find more information about our company and mission.</p>
+      <p>We sell a variety of products including shirts, sweatshirts, hats, and pants.</p>
     </div>
   );
 }

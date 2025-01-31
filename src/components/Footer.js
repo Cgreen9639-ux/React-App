@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2023 Our E-commerce Store. All rights reserved.</p>
+      <p>&copy; 2023 Neuro Styles. All rights reserved.</p>
       <nav>
         <ul>
           <li><a href="/privacy">Privacy Policy</a></li>
