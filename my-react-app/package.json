@@ -1,0 +1,20 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "description": "A React application served by an Express server",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "npm start --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix client",
+    "eject": "npm run eject --prefix client"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
